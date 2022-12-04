@@ -7,9 +7,6 @@ $elfhashlist = @{}
 #initiate on elf number 1
 $elfcount = 1
 
-[int]$highestCalorieCount = 0
-$fattestElf = 0
-
 #walk through the calorielist
 foreach($calorie in $calorielist){ 
     #Parse string as int
